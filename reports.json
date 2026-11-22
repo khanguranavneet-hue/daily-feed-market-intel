@@ -1,10 +1,19 @@
+
 [
+  {
+    "id": "2026-11-22-morning",
+    "date": "2026-11-22",
+    "type": "morning",
+    "title": "Morning Market Intelligence — 22 Nov 2026",
+    "summary": "Global cues, India market developments and outlook for NIFTY, BANK NIFTY, GOLD and CRUDE.",
+    "file": "reports/2026-11-22-morning.md"
+  },
   {
     "id": "2026-11-22-evening",
     "date": "2026-11-22",
     "type": "evening",
-    "title": "Evening Market Debrief — 22 Nov 2026",
-    "summary": "Indian market review, after-close developments and next-session scenarios.",
-    "file": "reports/india_global_market_intelligence_2026-11-22.md"
-  }
+    "title": "Evening Market Intelligence — 22 Nov 2026",
+    "summary": "xyz",
+    "file": "reports/2026-11-22-evening.md"
+  },
 ]
