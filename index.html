@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Daily Feed for Market Intel — India and global market research briefings.">
+  <title>Daily Feed for Market Intel</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./" aria-label="Daily Feed for Market Intel home">
+        <span class="brand-mark">DF</span>
+        <span><strong>Daily Feed</strong><small>FOR MARKET INTEL</small></span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#latest">Latest briefings</a>
+        <a href="#archive">Archive</a>
+        <a href="#method">About this desk</a>
+      </nav>
+      <span class="header-tag">INDIA · GLOBAL</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow">MARKET INTELLIGENCE / RESEARCH DESK</div>
+      <h1>Context before<br><em>every market decision.</em></h1>
+      <p class="hero-copy">A concise daily read on the developments shaping Indian markets, global risk and long-term investment themes.</p>
+      <div class="hero-meta">
+        <span><i class="live-dot"></i> Research briefings</span>
+        <span>Morning · 08:30 IST</span>
+        <span>Evening · 21:30 IST</span>
+      </div>
+    </section>
+
+    <section class="market-strip" aria-label="Coverage">
+      <div><span class="strip-label">CORE COVERAGE</span><strong>NIFTY 50</strong><small>Indian equities</small></div>
+      <div><span class="strip-label">CORE COVERAGE</span><strong>BANK NIFTY</strong><small>Financials</small></div>
+      <div><span class="strip-label">CORE COVERAGE</span><strong>GOLD</strong><small>Precious metals</small></div>
+      <div><span class="strip-label">CORE COVERAGE</span><strong>CRUDE OIL</strong><small>Energy markets</small></div>
+    </section>
+
+    <section class="section" id="latest">
+      <div class="section-heading">
+        <div><div class="eyebrow">THE DAILY BRIEF</div><h2>Latest intelligence</h2></div>
+        <p>Two checkpoints. One connected view of the market.</p>
+      </div>
+      <div class="latest-grid" id="latest-grid">
+        <article class="brief-card empty-card">
+          <div class="card-kicker">08:30 IST · MORNING</div>
+          <h3>Morning market intelligence</h3>
+          <p>Overnight developments, pre-market cues, key catalysts and scenarios for the trading day.</p>
+          <span class="empty-note">Your first report will appear here.</span>
+        </article>
+        <article class="brief-card empty-card">
+          <div class="card-kicker">21:30 IST · EVENING</div>
+          <h3>Evening market debrief</h3>
+          <p>What moved, why it moved, after-market developments and implications for the next session.</p>
+          <span class="empty-note">Your first report will appear here.</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section archive-section" id="archive">
+      <div class="section-heading">
+        <div><div class="eyebrow">RESEARCH LIBRARY</div><h2>Report archive</h2></div>
+        <label class="search-wrap"><span class="sr-only">Search reports</span><input id="search" type="search" placeholder="Search reports…"></label>
+      </div>
+      <div class="filter-row">
+        <button class="filter active" data-filter="all">All reports</button>
+        <button class="filter" data-filter="morning">Morning</button>
+        <button class="filter" data-filter="evening">Evening</button>
+      </div>
+      <div id="archive-list" class="archive-list">
+        <div class="archive-empty">No reports published yet. Add your first report using the publishing guide.</div>
+      </div>
+    </section>
+
+    <section class="section method-section" id="method">
+      <div class="eyebrow">OUR LENS</div>
+      <h2>From headline to<br><em>market consequence.</em></h2>
+      <div class="method-grid">
+        <div><span>01</span><h3>Verify</h3><p>Prioritise credible reporting and official releases. Separate confirmed facts from commentary.</p></div>
+        <div><span>02</span><h3>Connect</h3><p>Trace first-, second- and third-order effects across Indian markets, global macro and commodities.</p></div>
+        <div><span>03</span><h3>Assess</h3><p>Make the time horizon, impact, confidence and invalidation conditions explicit.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div><strong>DAILY FEED FOR MARKET INTEL</strong><p>Independent market intelligence for discussion and research.</p></div>
+    <p class="disclaimer">For information and research purposes only. Not investment advice or a solicitation to trade. Verify data, prices and source material independently before making decisions.</p>
+  </footer>
+
+  <dialog id="report-dialog" class="report-dialog">
+    <div class="dialog-top"><span id="dialog-meta"></span><button id="close-dialog" aria-label="Close report">×</button></div>
+    <article id="dialog-content" class="report-content"></article>
+  </dialog>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
