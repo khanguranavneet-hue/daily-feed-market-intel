@@ -6,5 +6,13 @@
     "title": "Morning Market Intelligence — 23 Nov 2026",
     "summary": "Overnight global cues, India pre-market developments and four-instrument outlook.",
     "file": "reports/2026-11-23-morning.md"
+  },
+  {
+    "id": "2026-11-22-evening",
+    "date": "2026-11-22",
+    "type": "evening",
+    "title": "Evening Market Intelligence — 22 Nov 2026",
+    "summary": "Develepments through the day",
+    "file": "reports/2026-11-22-evening.md"
   }
 ]
