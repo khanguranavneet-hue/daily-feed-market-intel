@@ -1,19 +1,10 @@
-
 [
   {
-    "id": "2026-11-22-morning",
-    "date": "2026-11-22",
+    "id": "2026-11-23-morning",
+    "date": "2026-11-23",
     "type": "morning",
-    "title": "Morning Market Intelligence — 22 Nov 2026",
-    "summary": "Global cues, India market developments and outlook for NIFTY, BANK NIFTY, GOLD and CRUDE.",
-    "file": "reports/2026-11-23-morning.md"
-  },
-  {
-    "id": "2026-11-22-evening",
-    "date": "2026-11-22",
-    "type": "evening",
-    "title": "Evening Market Intelligence — 22 Nov 2026",
-    "summary": "xyz",
-    "file": "reports/2026-11-22-evening.md"
-  },
+    "title": "Morning Market Intelligence — 23 Nov 2026",
+    "summary": "Overnight global cues, India pre-market developments and four-instrument outlook.",
+    "file": "https://github.com/khanguranavneet-hue/daily-feed-market-intel/reports/2026-11-23-morning.md"
+  }
 ]
